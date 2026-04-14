@@ -1,6 +1,8 @@
 name: 01 - Building Blocks
 
-on: push  #whenever we push, execute this workflow
+on: 
+   workflow_dispatch:
+   #push  #whenever we push, execute this workflow
 
 jobs:
     echo-hello:
