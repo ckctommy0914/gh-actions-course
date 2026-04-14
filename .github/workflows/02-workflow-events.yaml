@@ -1,10 +1,10 @@
 name: 02 - Workflow Events
 
 on: 
-    push :                      #multi on in array
+    #push :                      #multi on in array
     pull_request:
-    schedule: 
-        - cron: "*/5 * * * *"  
+    # schedule: 
+    #     - cron: "*/5 * * * *"  
     workflow_dispatch: #manual trigger from UI
 
 jobs: 
